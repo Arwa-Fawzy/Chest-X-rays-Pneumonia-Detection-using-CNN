@@ -32,7 +32,6 @@ from tensorflow.keras.layers import BatchNormalization
 from keras.layers.merge import Concatenate
 from keras.models import Model
 from tensorflow.keras.optimizers import Adam, SGD, RMSprop
-# from keras.optimizers import Adam, SGD, RMSprop
 from keras.callbacks import ModelCheckpoint, Callback, EarlyStopping
 from tensorflow.keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
